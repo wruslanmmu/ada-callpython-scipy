@@ -1,0 +1,130 @@
+gprbuild -d -P/home/wruslan/github-mmu/ada-callpython-scipy/ada_callpython_scipy.gpr -s -k
+Compile
+   [Ada]          main_ada_callpython_scipy.adb
+   [Ada]          pkg_ada_callpython_module.adb
+   [Ada]          pkg_ada_datetime_stamp.adb
+   [Ada]          pkg_ada_realtime_delays.adb
+Bind
+   [gprbind]      main_ada_callpython_scipy.bexch
+   [Ada]          main_ada_callpython_scipy.ali
+Link
+   [link]         main_ada_callpython_scipy.adb
+[2021-03-16 13:17:52] process terminated successfully, elapsed time: 01.35s
+
+EXECUTION
+===========================================================
+/home/wruslan/github-mmu/ada-callpython-scipy/exec/main_ada_callpython_scipy.adx
+2021-03-16 05:19:14.75291877132 STARTED: main Bismillah 3 times WRY
+
+Executing... PACPM.Execute_String ("import scipy as scp") 
+
+2021-03-16 05:19:14.86408478860 ENDED: main Alhamdulillah 3 times WRY. Execution time:  0.116633994 seconds.
+[2021-03-16 13:19:14] process terminated successfully, elapsed time: 00.30s
+
+===========================================================
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mmu/ada-callpython-scipy$ ls -al
+total 48
+drwxrwxr-x 10 wruslan wruslan 4096 Mar 16 12:41 .
+drwxrwxr-x  9 wruslan wruslan 4096 Mar 15 15:35 ..
+-rw-rw-r--  1 wruslan wruslan 1540 Mar 16 12:41 ada_callpython_scipy.gpr
+drwxrwxr-x  5 wruslan wruslan 4096 Mar 16 13:19 docs
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 16 13:17 exec
+drwxrwxr-x  4 wruslan wruslan 4096 Mar 16 09:29 figures
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 16 09:30 files
+drwxrwxr-x  8 wruslan wruslan 4096 Mar 16 13:17 .git
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 15 08:40 lib
+drwxrwxr-x  2 wruslan wruslan 4096 Mar 16 13:21 obj
+-rw-rw-r--  1 wruslan wruslan   45 Mar 15 15:26 README.md
+drwxrwxr-x  7 wruslan wruslan 4096 Mar 16 13:17 src
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mmu/ada-callpython-scipy$ 
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mmu/ada-callpython-scipy$ tree ./
+./
+├── ada_callpython_scipy.gpr
+├── docs
+│   ├── ada-references
+│   │   ├── 01-Introduction-to-Ada-(2020).pdf
+│   │   ├── 02-Introduction-to-Spark-(2020).pdf
+│   │   └── ref-operator-precedence.txt
+│   ├── copy-project-specifications
+│   │   ├── ada_full_project_specifications.gpr
+│   │   └── ada_simplified_project_specifications.gpr
+│   ├── matplotlib-references
+│   │   └── reference-links-01.txt
+│   ├── session-01.txt
+│   ├── session-02.txt
+│   └── session-03.txt
+├── exec
+│   └── main_ada_callpython_scipy.adx
+├── figures
+│   ├── jpg
+│   │   ├── Screenshot from 2021-03-16 05-33-47.jpg
+│   │   └── Screenshot from 2021-03-16 09-28-03.jpg
+│   └── png
+│       ├── Screenshot from 2021-03-16 05-33-47.png
+│       └── Screenshot from 2021-03-16 09-28-03.png
+├── files
+│   └── reference-links-01.txt
+├── lib
+├── obj
+│   ├── ada_callpython_scipy-loc.xml
+│   ├── ada_callpython_template-loc.xml
+│   ├── ada_full_project_specifications-loc.xml
+│   ├── ada_python_template-loc.xml
+│   ├── b__main_ada_call_python_module.adb
+│   ├── b__main_ada_callpython_module.adb
+│   ├── b__main_ada_call_python_module.ads
+│   ├── b__main_ada_callpython_module.ads
+│   ├── b__main_ada_call_python_module.ali
+│   ├── b__main_ada_callpython_module.ali
+│   ├── b__main_ada_call_python_module.o
+│   ├── b__main_ada_callpython_module.o
+│   ├── b__main_ada_xxxxxxx.adb
+│   ├── b__main_ada_xxxxxxx.ads
+│   ├── b__main_ada_xxxxxxx.ali
+│   ├── b__main_ada_xxxxxxx.o
+│   ├── gpsauto.cgpr
+│   ├── main_ada_call_python_module.adb.stderr
+│   ├── main_ada_callpython_module.adb.stderr
+│   ├── main_ada_call_python_module.adb.stdout
+│   ├── main_ada_callpython_module.adb.stdout
+│   ├── main_ada_call_python_module.ali
+│   ├── main_ada_callpython_module.ali
+│   ├── main_ada_call_python_module.bexch
+│   ├── main_ada_callpython_module.bexch
+│   ├── main_ada_call_python_module.cswi
+│   ├── main_ada_callpython_module.cswi
+│   ├── main_ada_call_python_module.o
+│   ├── main_ada_callpython_module.o
+│   ├── main_ada_xxxxxxx.bexch
+│   ├── pkg_ada_call_python_module.adb.stderr
+│   ├── pkg_ada_call_python_module.adb.stdout
+│   ├── pkg_ada_call_python_module.ali
+│   ├── pkg_ada_call_python_module.cswi
+│   └── pkg_ada_call_python_module.o
+├── README.md
+└── src
+    ├── main_ada_callpython_scipy.adb
+    ├── mod-python
+    │   ├── python_module_01.py
+    │   ├── python_module_01.pyc
+    │   ├── python_module_02.py
+    │   └── python_module_02.pyc
+    ├── pkg-ada-callpython-module
+    │   ├── pkg_ada_callpython_module.adb
+    │   └── pkg_ada_callpython_module.ads
+    ├── pkg-ada-datetime-stamp
+    │   ├── pkg_ada_datetime_stamp.adb
+    │   └── pkg_ada_datetime_stamp.ads
+    ├── pkg-ada-random-numbers
+    │   ├── pkg_ada_random_numbers.adb
+    │   └── pkg_ada_random_numbers.ads
+    └── pkg-ada-realtime-delays
+        ├── pkg_ada_realtime_delays.adb
+        └── pkg_ada_realtime_delays.ads
+
+17 directories, 65 files
+wruslan@HPEliteBook8470p-Ub2004-rt38:~/github-mmu/ada-callpython-scipy$ 
+===========================================================
+Alhamdulillah 3 times WRY.
+===========================================================
+
